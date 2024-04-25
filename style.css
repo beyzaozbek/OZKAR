@@ -59,7 +59,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 3%;
-    background: rgba(221, 221, 212, 0.6);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 1001;
 }
 header .logo{
