@@ -63,9 +63,8 @@ header{
     z-index: 1001;
 }
 header .logo{
-    font-size: 3.5rem;
-    color: var(--min-color);
-    padding: 0.4rem;
+    max-width: 100%;
+    max-height: 8rem;
 }
 header .navbar a{
     margin: 0 0.8rem;
