@@ -37,6 +37,7 @@ html{
 }
 .heading{
     margin: 5rem auto;
+    margin-top: 9rem;
     font-size: 3.5rem;
     text-align: center;
     color: var(--th-color);
@@ -118,25 +119,23 @@ header .fa-bars{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 .about .box .image img{
     width: 60rem;
     height: 100%;
     object-fit: cover;
 }
-.about .box .content h3{
-    color: var(--th-color);
-    font-size: 3.5rem;
-}
+
 .about .box .content p{
     color: var(--th-color);
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 2rem 0;
+    line-height: 1.5;
 }
-.about .box .content div{
+.about .box .content span{
     color: var(--th-color);
-    font-size: 2.2rem;
+    font-size: 1.9rem;
 }
 .services .row{
     display: grid;
@@ -166,7 +165,7 @@ header .fa-bars{
 }
 .portfolio .row{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(10%,1fr));
     gap: 1rem;
     margin: 6rem auto;
     width: 90%;
@@ -210,60 +209,6 @@ header .fa-bars{
     color: var(--min-color);
 }
 
-.team{
-    width: 100%;
-}
-.team .row{
-
-   background: url(../img/background/reviews-bg.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   position: relative;
-   display: flex;
-   align-items: center;
-   min-height: 70vh;
-} 
-.row::before{
-    content: "";
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.team .row .team-slider  .box{
-    padding: 0 3%;
-}
-.team .team-slider .box .content{
-    background: #222;
-    box-shadow: 0 0.5 0.5 rgba(0, 0, 0, 0.6);
-    text-align: center;
-    padding: 4rem;
-    border-radius: 1rem;
-    height:30rem;
-}
-.team .team-slider .box .image img{
-    width: 10rem;
-    height: 7rem;
-    border-radius: 50%;
-    position: absolute;
-    top: 22rem; left: 1rem;
-    border: 0.3rem solid var(--sc-color);
-    
-}
-.team .team-slider .box .content h3{
-    font-size: 3.5rem;
-    color: var(--sc-color);
-    margin: 1rem;
-
-}
-.team .team-slider .box .content p{
-    color: #fff;
-    font-size: 2.2rem;
-}
 .blog .row{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
