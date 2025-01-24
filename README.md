@@ -49,4 +49,6 @@ Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları tak
 
 ## Lisans
 Bu proje herhangi bir lisans kapsamında değildir ve tamamen hayali bir proje olarak oluşturulmuştur.
+
+
 ![Açıklama](https://github.com/beyzaozbek/Ozkar/raw/main/ozkar.png)
